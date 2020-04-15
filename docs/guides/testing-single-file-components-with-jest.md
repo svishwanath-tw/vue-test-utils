@@ -115,10 +115,10 @@ Example `.babelrc`:
 
 ```json
 {
-  "presets": [["env", { "modules": false }]],
+  "presets": [["@babel/env", { "modules": false }]],
   "env": {
     "test": {
-      "presets": [["env", { "targets": { "node": "current" } }]]
+      "presets": [["@babel/env", { "targets": { "node": "current" } }]]
     }
   }
 }
